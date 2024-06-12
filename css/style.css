@@ -112,9 +112,10 @@ span {
 /*&--------Offres----------*/
 
 .offres {
-  margin: 100px 0;
-  padding: 20px;
-  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 10rem 1rem;
 }
 
 .offres h1 {
@@ -195,14 +196,23 @@ span {
 /*&--------------opinion------------*/
 
 .opinions {
-  margin: 100px 0;
+  padding: 5rem 1rem;
+  margin: auto;
+  max-width: 1200px;
+  margin-top: 50px;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .opinions h1 {
-  margin-right: 25%;
+  margin-bottom: 3rem;
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+.opinion-list {
+  display: flex;
+  flex-direction: column;
 }
 
 .opinion {
@@ -215,4 +225,75 @@ span {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 1rem;
+}
+
+.opinion .comm {
+  padding: 0px 3rem;
+}
+
+.person img {
+  width: 50px;
+  border-radius: 50px;
+}
+
+.person p {
+  margin: 0.5rem 0rem;
+  font-weight: 500;
+}
+
+/*&----------------contact--------------*/
+
+.contact {
+  padding: 10rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #333;
+  color: white;
+}
+
+.contact-elems {
+  background: #333;
+  color: #fff;
+  padding: 5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-elems h1 {
+  font-size: 2rem;
+}
+
+input {
+  flex: 1;
+  font-size: 1.4rem;
+  background: #333;
+  color: white;
+  padding: 20px;
+  border: none;
+  border-bottom: 1px solid #686868;
+}
+
+button {
+  margin: 3rem;
+  background: #f9ca24;
+  color: white;
+  font-size: 1.4rem;
+  padding: 20px;
+  border-radius: 50rem;
+
+}
+
+/*&----------footer-------------*/
+
+footer{
+  text-align: center;
+  color: white;
+  background: #686868;
+  padding: 3rem;
+
+}
+
+footer h3{
 }

@@ -21,9 +21,9 @@
         <a href="#">Saihi</a>
       </h2>
       <ul>
-        <li><a href="#">Nos Offres</a></li>
-        <li><a href="#">Notre Equipe</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#offres">Nos Offres</a></li>
+        <li><a href="#team">Notre Equipe</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </header>
     <section class="vp">
@@ -32,7 +32,7 @@
         repellendus, tenetur autem? Tenetur, et sapiente.
       </p>
     </section>
-    <section class="offres">
+    <section id="offres" class="offres">
       <h1>Nos Dernieres Offres</h1>
       <div class="offres-list">
         <div class="offer">
@@ -64,7 +64,7 @@
         </div>
       </div>
     </section>
-    <section class="team">
+    <section id="team" class="team">
       <div class="team-img"></div>
       <div class="team-desc">
         <h1>Une équipe de <span>professionnels</span> avec plus de 10 ans d'expérience</h1>
@@ -76,16 +76,51 @@
     </section>
     <section class="opinions">
       <h1>Voici ce qu'ils pensent de nous</h1>
-      <div class="opinion">
-        <p><i class="fa-solid fa-quote-left"></i>Lorem ipsum dolor sit, amet consectetur adipisicing elit.<i
-            class="fa-solid fa-quote-right"></i></p>
-        <div class="person">
-          <img src="./images/person-1.jpg" alt="person">
-          <p><strong>Jean Dupont</strong></p>
-          <p>CEO étoile</p>
+      <div class="opinion-list">
+        <div class="opinion">
+          <p class="comm"><i class="fa-solid fa-quote-left"></i>Lorem ipsum dolor sit, amet consectetur adipisicing
+            elit.<i class="fa-solid fa-quote-right"></i></p>
+          <div class="person">
+            <img src="./images/person-3.jpg" alt="person">
+            <p>Jean Dupont</p>
+            <em>CEO étoile</em>
+          </div>
+        </div>
+        <div class="opinion">
+          <div class="person">
+            <img src="./images/person-2.jpg" alt="person">
+            <p>Arthur Lac</p>
+            <em>Développeur Web</em>
+          </div>
+          <p class="comm"><i class="fa-solid fa-quote-left"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Adipisci modi pariatur voluptatibus recusandae necessitatibus in labore officiis, voluptatum qui dignissimos
+            animi nulla fugiat, quae nisi minima repellendus? Maiores, non consequuntur! Placeat voluptatibus
+            dignissimos praesentium veniam, dolorem quas adipisci in ea!<i class="fa-solid fa-quote-right"></i></p>
+        </div>
+        <div class="opinion">
+          <p class="comm"><i class="fa-solid fa-quote-left"></i>Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit. Voluptatibus temporibus, aliquid esse odio delectus doloremque sequi vel tenetur corrupti ab.<i
+              class="fa-solid fa-quote-right"></i></p>
+          <div class="person">
+            <img src="./images/person-1.jpg" alt="person">
+            <p>Julie Roux</p>
+            <em>Développeuse Web</em>
+          </div>
         </div>
       </div>
     </section>
+    <section id="contact" class="contact">
+      <div class="contact-elems">
+        <h1 class="contact-elem">Pour nous <span>contact</span></h1>
+        <input class="contact-elem" type="text" id="nom" placeholder="Nom">
+        <input class="contact-elem" type="email" id="email" placeholder="Email">
+        <input class="contact-elem" type="text" id="message" placeholder="Votre message">
+      </div>
+      <button class="" type="submit">Soumettre</button>
+    </section>
+    <footer>
+      <p>Copyright © 2022 Ala Eddine Saihi, Inc.</p>
+    </footer>
   </div>
 </body>
 
