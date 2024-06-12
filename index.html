@@ -10,7 +10,7 @@
     href="https://fonts.googleapis.com/css2?family=Long+Cang&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" media="only screen and (max-width:500px)" href="./css/style.mobile.css">
+  <link rel="stylesheet" href="./css/style.mobile.css">
 </head>
 
 <body>
@@ -33,35 +33,37 @@
       </p>
     </section>
     <section id="offres" class="offres">
-      <h1>Nos Dernieres Offres</h1>
-      <div class="offres-list">
-        <div class="offer">
-          <img src="./images/house-1.jpg" alt="Appartement - Tunis">
-          <div class="offer-desc">
-            <p class="offer-text">Appartement - Tunis 75007</p>
-            <p class="offer-text">11 chambres 450 m²</p>
-            <div class="separator offer-text"></div>
-            <p class="offer-text">3 900 000 € - $4 200 000</p>
-          </div>
-        </div>
-        <div class="offer">
-          <img src="./images/house-2.jpg" alt="Appartement - Tunis">
-          <div class="offer-desc">
-            <p class="offer-text">Appartement - Tunis 75001</p>
-            <p class="offer-text">5 chambres 233 m²</p>
-            <div class="separator offer-text"></div>
-            <p class="offer-text">3 900 000 DT - $4 200 000</p>
-          </div>
-        </div>
-        <div class="offer">
-          <img src="./images/house-3.jpg" alt="Appartement - Tunis">
-          <div class="offer-desc">
-            <p class="offer-text">Appartement - Tunis 75001</p>
-            <p class="offer-text">5 chambres 233 m²</p>
-            <div class="separator offer-text"></div>
-            <p class="offer-text">3 900 000 € - $4 200 000</p>
-          </div>
-        </div>
+      <div class="container">
+        <h2>Nos Dernieres Offres</h2>
+        <ul class="offres-list">
+          <li class="offer">
+            <img src="./images/house-3.jpg" alt="Appartement - Tunis">
+            <div class="offer-desc">
+              <p class="offer-text">Appartement - Tunis 75001</p>
+              <p class="offer-text">5 chambres 233 m²</p>
+              <div class="separator offer-text"></div>
+              <p class="offer-text">3 900 000 € - $4 200 000</p>
+            </div>
+            <li />
+          <li class="offer">
+            <img src="./images/house-2.jpg" alt="Appartement - Tunis">
+            <div class="offer-desc">
+              <p class="offer-text">Appartement - Tunis 75001</p>
+              <p class="offer-text">5 chambres 233 m²</p>
+              <div class="separator offer-text"></div>
+              <p class="offer-text">3 900 000 € - $4 200 000</p>
+            </div>
+            <li />
+          <li class="offer">
+            <img src="./images/house-1.jpg" alt="Appartement - Tunis">
+            <div class="offer-desc">
+              <p class="offer-text">Appartement - Tunis 75001</p>
+              <p class="offer-text">5 chambres 233 m²</p>
+              <div class="separator offer-text"></div>
+              <p class="offer-text">3 900 000 € - $4 200 000</p>
+            </div>
+          <li />
+        <ul />
       </div>
     </section>
     <section id="team" class="team">
@@ -110,16 +112,16 @@
       </div>
     </section>
     <section id="contact" class="contact">
-      <div class="contact-elems">
-        <h1 class="contact-elem">Pour nous <span>contact</span></h1>
-        <input class="contact-elem" type="text" id="nom" placeholder="Nom">
-        <input class="contact-elem" type="email" id="email" placeholder="Email">
-        <input class="contact-elem" type="text" id="message" placeholder="Votre message">
-      </div>
-      <button class="" type="submit">Soumettre</button>
+      <form class="contact-elems">
+        <h2 class="contact-elem">Pour nous <span>contact</span></h2>
+        <input type="text" id="nom" placeholder="Nom">
+        <input type="email" id="email" placeholder="Email">
+        <input type="text" id="message" placeholder="Votre message">
+        <button class="" type="submit">Soumettre</button>
+      </form>
     </section>
     <footer>
-      <p>Copyright © 2022 Ala Eddine Saihi, Inc.</p>
+      <p>Copyright © 2024 Ala Eddine Saihi, Inc.</p>
     </footer>
   </div>
 </body>

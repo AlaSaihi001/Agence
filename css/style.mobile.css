@@ -1,0 +1,26 @@
+@media (max-width: 500px){
+  header{
+    flex-direction: column;
+  }
+  header ul {
+    flex-direction: column;
+    text-align: center;
+  }
+  header li {
+    padding: 0.5rem;
+    margin-top: 1rem;
+    border-bottom: dotted 1px #ddd;
+  }
+
+  .vp{
+    padding: 0 1.8rem;
+  }
+
+  .vp h1 {
+    font-size: 1.8rem;
+  }
+  
+  .vp p {
+    font-size: 1.4rem;
+  }
+}
