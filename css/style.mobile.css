@@ -23,4 +23,29 @@
   .vp p {
     font-size: 1.4rem;
   }
+
+  .team {
+    flex-flow: column-reverse wrap;
+    height: auto;
+  }
+
+  .team-img {
+    min-height: 20rem;
+  }
+
+  .opinion {
+    flex: 1;
+    display: flex;
+    flex-flow: column-reverse wrap;
+  }
+
+  .opinion .comm {
+    padding: 3rem;
+  }
+
+  .person{
+    align-items: center;
+    display: flex;
+    flex-flow: column wrap;
+  }
 }

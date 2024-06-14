@@ -123,6 +123,7 @@ span {
   flex-direction: column;
   margin: auto;
   padding: 10rem 1rem;
+  align-items: center;
 }
 .offres h2 {
   font-size: 1.8rem;
@@ -130,10 +131,8 @@ span {
 }
 .offres-list {
   display: flex;
-  justify-content: center;
   gap: 20px;
   flex-wrap: wrap;
-  
 }
 .offer {
   display: flex;
@@ -182,7 +181,7 @@ span {
   background: #333;
   color: #fff;
   flex: 1;
-  padding: 4rem;
+  padding: 3rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -201,9 +200,8 @@ span {
 
 .opinions {
   padding: 5rem 1rem;
-  margin: auto;
+  margin-top: 50px auto;
   max-width: 1200px;
-  margin-top: 50px;
   display: flex;
   flex-direction: column;
 }
